@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intercambio de Reciclaje</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e0f7fa;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #00796b;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 5px;
+        }
+        .exchange-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .exchange-form input, .exchange-form textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #00796b;
+            border-radius: 5px;
+        }
+        .exchange-form button {
+            background: #00796b;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Intercambio de Reciclaje</h1>
+    </header>
+    <section>
+        <h2>¿Qué es el Reciclaje?</h2>
+        <p>El reciclaje es el proceso de convertir materiales usados en nuevos productos para prevenir el desperdicio de materiales útiles.</p>
+    </section>
+    <section>
+        <h2>Intercambio de Materiales Reciclables</h2>
+        <p>Utiliza el siguiente formulario para ofrecer o buscar materiales reciclables.</p>
+        <form class="exchange-form">
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu correo electrónico" required>
+            <input type="text" placeholder="Material que ofreces" required>
+            <textarea placeholder="Descripción del material" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
